@@ -24,7 +24,7 @@ def suma_numeros_primos(numeros):
         if numero_primo(numero):
             suma_primos += numero
             num_primos += 1
-    return ("El resultado de la suma de los números primos del arreglo ingresado es: ", suma_numeros_primos)
+    return ("El resultado de la suma de los números primos del arreglo ingresado es: ", suma_primos)
 
 realizar = int(input("Ingrese 1 si quiere realizar la suma de los números primos del rango ingresado: "))
 
