@@ -22,7 +22,7 @@ def suma_numeros_primos(numeros):
     num_primos = 0
     for numero in numeros:
         if numero_primo(numero):
-            suma_numeros_primos += numero
+            suma_primos += numero
             num_primos += 1
     return ("El resultado de la suma de los números primos del arreglo ingresado es: ", suma_numeros_primos)
 
